@@ -13,7 +13,7 @@ Run the attached Docketfile as follow:
 * docker build -t numpy_rush .
 * mkdir notebooks
 * docker run -p 8800:8888 -v $(pwd)/notebooks:/notebooks numpy_rush
-* <docker-host-ip>:8800/?token=...
+* docker-host-ip:8800/?token=...
  
 ### Please note that python 3, docker, docker-machine should be installed in your machine (can be install via Brew) and virtualbox (via Managed Software Center)
 
