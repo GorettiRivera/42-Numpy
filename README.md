@@ -18,11 +18,11 @@ Run the attached Docketfile as follow:
 ### Please note that python 3, docker, docker-machine should be installed in your machine (can be install via Brew) and virtualbox (via Managed Software Center)
 
 Helpful commands:
-1. Create a virtual machine with docker-machine using the virtualbox driver, and named Char.
-  ** docker-machine create --driver virtualbox Test
-2. Get the IP address of the Char virtual machine.
-  ** docker-machine ip Test
-3. Start the "Test" machine
-  ** docker-machine start
-4. Define the variables needed by your virtual machine 
-  ** eval $(docker-machine env Test)
+* Create a virtual machine with docker-machine using the virtualbox driver, and named Char.
+  1. docker-machine create --driver virtualbox Test
+* Get the IP address of the Char virtual machine.
+  2. docker-machine ip Test
+* Start the "Test" machine
+  3. docker-machine start Test
+* Define the variables needed by your virtual machine 
+  4. eval $(docker-machine env Test)
