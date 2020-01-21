@@ -19,10 +19,10 @@ Run the attached Docketfile as follow:
 
 Helpful commands:
 * Create a virtual machine with docker-machine using the virtualbox driver, and named Char.
-  1. docker-machine create --driver virtualbox Test
+  docker-machine create --driver virtualbox Test
 * Get the IP address of the Char virtual machine.
-  2. docker-machine ip Test
+  docker-machine ip Test
 * Start the "Test" machine
-  3. docker-machine start Test
+  docker-machine start Test
 * Define the variables needed by your virtual machine 
-  4. eval $(docker-machine env Test)
+  eval $(docker-machine env Test)
