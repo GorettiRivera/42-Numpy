@@ -4,7 +4,7 @@ NumPy is a library for the Python programming language, adding support for large
 
 This project will be done using an IPython Jupyter Notebook. A Dockerfile is provided to save you installation time. 
 
-The purpose of this project is to getting started with the numpy and matplotlib python's linraries. As part of this project we will reproduce some instagram filters.
+The purpose of this project is to getting started with the numpy and matplotlib python's libraries. As part of this project we will reproduce some instagram filters.
 
 
 ## Installation
