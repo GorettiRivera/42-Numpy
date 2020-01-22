@@ -15,7 +15,7 @@ Run the attached Docketfile as follow:
 * docker run -p 8800:8888 -v $(pwd)/notebooks:/notebooks numpy_rush
 * docker-host-ip:8800/?token=...
  
-### Please note that python 3, docker, docker-machine should be installed in your machine (can be install via Brew) and virtualbox (via Managed Software Center)
+-- Please note that python 3, docker, docker-machine should be installed in your machine (can be install via Brew) and virtualbox (via Managed Software Center)
 
 Helpful commands:
 * Create a virtual machine with docker-machine using the virtualbox driver, and named Char.
